@@ -1,0 +1,67 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.startline {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+nav {
+    flex: 1;
+    text-align: right;
+}
+
+nav ul {
+    display: inline-block;
+    list-style-type: none;
+
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.prebook1 {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.part1 {
+    flex-basis: 70% 30%;
+    min-width: 300px;
+}
+
+.part1 img {
+    max-width: 100%;
+    padding: 50px 0;
+}
+
+.part1 h1 {
+    font-size: 50px;
+    line-height: 65px;
+    margin: 25px 0;
+
+}
+
+.button {
+    display: inline-block;
+    background: brown;
+    color: white;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 15px;
+}
+
+.startline .products {
+    margin-top: 70 px;
+}
